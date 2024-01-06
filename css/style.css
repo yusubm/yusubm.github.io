@@ -14,6 +14,7 @@ button{
     border: none;
     border-radius: 10px;
     cursor: pointer;
+    animation: slideFade 1s;
 }
 
 header {
@@ -22,11 +23,13 @@ header {
     padding: 10px;
     border-radius: 10px; 
     text-align: center;
+    animation: slideFade 1s;
 }
 
 h2 a {
     text-decoration: none;
     color: #7ecac5;
+    animation: slideFade 1s;
   }
 
 h2 a:visited{
@@ -36,6 +39,7 @@ h2 a:visited{
 .navigate {
     background-color: #7ecac5;
     overflow: hidden;
+    animation: slideFade 1s;
 }
 
 .navigate a {
@@ -56,6 +60,7 @@ h2 a:visited{
 section {
     padding: 20px;
     margin: 20px;
+    animation: slideFade 1s;
 }
 
 section h2 {
@@ -87,6 +92,7 @@ footer a:visited {
 
 form {
     margin: 20px;
+    animation: slideFade 1s;
 }
 
 label {
