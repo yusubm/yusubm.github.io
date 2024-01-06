@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 0;
+    background-color: #f2f2f2;
+    background:url('../image/background/bg.png') repeat center center fixed;
+    background-size: auto;
+    overflow-x: hidden;
+}
+
+button{
+    background-color: #7ecac5;
+    color: #ffffff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+header {
+    background-color: #7ecac5;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 10px; 
+    text-align: center;
+}
+
+h2 a {
+    text-decoration: none;
+    color: #7ecac5;
+  }
+
+h2 a:visited{
+    color: #5e9592;
+}
+
+.navigate {
+    background-color: #7ecac5;
+    overflow: hidden;
+}
+
+.navigate a {
+    background-color: #b0ddda;
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 10px; 
+    padding: 10px 15px;
+}
+
+.navigate a:hover {
+    background-color: #ffffff;
+    color: #7ecac5;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+}
+
+section h2 {
+    text-align: left;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #ffffff;
+    border-radius: 10px; 
+    opacity: 0.8;
+    color: #7ecac5;
+    position: fixed;
+    text-align: center;
+    bottom: 0;
+    left: 25%;
+    width: 50%;
+}
+
+footer a {
+    color: #7ecac5;
+    text-decoration: none;
+}
+
+footer a:visited {
+    color: #5e9592;
+}
+
+form {
+    margin: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    opacity: 0.8;
+    padding: 10px;
+    border-radius: 10px; 
+    margin-bottom: 16px;
+    text-align: left;
+    width: 500px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #7ecac5;
+    color: #ffffff;
+    padding: 12px 20px;
+    text-align: left;
+    display: block;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #5e9592;
+}
+
+#background {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 500px;
+    height: 500px;
+    z-index: -1;
+    animation: slideFade 2s;
+}
+
+@keyframes slideFade {
+    0% {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/script.js"></script>
+    <script src="js/showphoto.js"></script>
+    <script src="js/timedisplay.js"></script>
+    <style>
+        #current-image {
+            border-radius: 10px;
+            display: block;
+            max-width: 50%; /* 图片宽度不超过其容器宽度 */
+            height: auto; /* 高度会按比例缩放 */
+        }
+        #prev-btn, #next-btn {
+            display: inline-block;
+            padding: 10px;
+            margin: 10px;
+        }
+    </style>
+    <title>图片展示</title>
+</head>
+
+<body>
+    <img id="background" src="image/background/image_6.png" alt="背景图片">
+    <header>
+        <div class="navigate">
+            <a href="index.html">首页</a>
+            <a href="page_1.html">图片</a>
+            <a href="page_2.html">视频</a>
+            <a href="page_3.html">文章</a>
+        </div>
+    </header>
+    <section>
+        <h2>图片展示</h2>
+        <img id="current-image" src="image/photo_1.jpg" alt="当前图片">
+        <button id="prev-btn">上一张</button>
+        <button id="next-btn">下一张</button>
+    </section>  
+    <footer>
+        <p><a href="contact_me.html">联系我</a>: Andy Wang</p>
+        <p id="currentTime"></p>
+    </footer>
+</body>
+
+</html>
